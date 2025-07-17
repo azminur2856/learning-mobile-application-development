@@ -64,4 +64,18 @@ fun main()
 
     age = 21 // This is allowed
     println("New Age: $age")
+
+
+    val stu1 = Student("Azminur Rahman", "azminur@gmail.com", 101, "CSE", 6)
+    stu1.displayInfo()
+
+    println("--------")
+
+    val stu2 = Student()
+    stu2.setName("ASHANUR RAHMAN")
+    stu2.setEmail("ashanur@gmail.com")
+    stu2.setStudentId(202)
+    stu2.setCourse("WPE")
+    stu2.setSemester(3)
+    stu2.displayInfo()
 }
