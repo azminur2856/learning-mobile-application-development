@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var femaleRB: RadioButton
     lateinit var cpp: CheckBox
     lateinit var cs: CheckBox
-    lateinit var cotlin: CheckBox
+    lateinit var kotlin: CheckBox
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
         femaleRB = findViewById(R.id.radioFemale)
         cpp = findViewById(R.id.checkBoxCPP)
         cs = findViewById(R.id.checkBoxCS)
-        cotlin = findViewById(R.id.checkBoxCotlin)
+        kotlin = findViewById(R.id.checkBoxCotlin)
 
 
         btn.setOnClickListener {
@@ -72,8 +72,8 @@ class MainActivity : AppCompatActivity() {
             if(cs.isChecked){
                 value+=" ,"+ cs.text.toString()
             }
-            if(cotlin.isChecked){
-                value+=" ,"+ cotlin.text.toString()
+            if(kotlin.isChecked){
+                value+=" ,"+ kotlin.text.toString()
             }
             view.visibility=View.VISIBLE
             view.setText(value)
