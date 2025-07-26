@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UserInterFaceDesign</string>
+    <string name="modify_text">Modify Text</string>
+    <string name="hello">Hello</string>
+</resources>
